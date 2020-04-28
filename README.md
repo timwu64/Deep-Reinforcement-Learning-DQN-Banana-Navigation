@@ -20,10 +20,6 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 •	3 - turn right.
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-Unity Machine Learning Agents (ML-Agents) is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents.
-
-In this project, we will use Unity's rich environments to design, train, and evaluate your own deep reinforcement learning algorithms. You can read more about ML-Agents by perusing the GitHub repository (https://github.com/Unity-Technologies/ml-agents).
-
 Spend a couple of minutes to move around and collect some yellow bananas. Once you feel like you understand the agent's task, feel free to move on to the next part of the lesson!
 
 ### Prerequisites
