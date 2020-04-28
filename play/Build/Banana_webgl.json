@@ -1,0 +1,13 @@
+{
+"companyName": "Unity Technologies",
+"productName": "Unity Environment",
+"dataUrl": "Banana_webgl.data.unityweb",
+"asmCodeUrl": "Banana_webgl.asm.code.unityweb",
+"asmMemoryUrl": "Banana_webgl.asm.memory.unityweb",
+"asmFrameworkUrl": "Banana_webgl.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
