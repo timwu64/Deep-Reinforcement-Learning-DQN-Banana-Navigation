@@ -18,9 +18,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 •	1 - move backward.
 •	2 - turn left.
 •	3 - turn right.
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
-
-Spend a couple of minutes to move around and collect some yellow bananas. Once you feel like you understand the agent's task, feel free to move on to the next part of the lesson!
+The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ### Prerequisites
 Make sure you have `python 3.6` installed.
