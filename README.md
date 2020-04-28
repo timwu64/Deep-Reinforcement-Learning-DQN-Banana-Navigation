@@ -3,8 +3,6 @@
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
-# Udacity Deep Reinforcement Learning Project 1: DQN Application for Banana-Navigation @ Unity Enviornment 
-
 ## Introduction
 
 For this project, an agent will be trained to navigate (and collect bananas!) in a large, square world.  The task is to collect as many "Yellow" bananas while avoid to collect "Blue" bananas.  The agent will receive a reward of +1 for collecting a "Yellow" banana and receive a reward of -1 for collecting a "Blue" banana.
