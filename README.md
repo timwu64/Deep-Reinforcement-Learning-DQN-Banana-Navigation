@@ -6,14 +6,25 @@
 ## Introduction
 For this project, an agent will be trained to navigate and collect bananas in a large, square world.  The task is to collect as many "Yellow" bananas while avoid to collect "Blue" bananas.  The agent will receive a reward of +1 for collecting a "Yellow" banana and receive a reward of -1 for collecting a "Blue" banana.
 
+## Getting Started
 Please follow the instructions in `Navigation.ipynb` to get started to train your own agent to collect "Yellow" Banana!
 
 ![Trained Agent][image1]
 
 ## Enviornment
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
+•	0 - move forward.
+•	1 - move backward.
+•	2 - turn left.
+•	3 - turn right.
+The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+
 Unity Machine Learning Agents (ML-Agents) is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents.
 
 In this project, we will use Unity's rich environments to design, train, and evaluate your own deep reinforcement learning algorithms. You can read more about ML-Agents by perusing the GitHub repository (https://github.com/Unity-Technologies/ml-agents).
+
+Spend a couple of minutes to move around and collect some yellow bananas. Once you feel like you understand the agent's task, feel free to move on to the next part of the lesson!
 
 ### Prerequisites
 Make sure you have `python 3.6` installed.
@@ -38,17 +49,6 @@ Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository
 (For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
 (For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use this link to obtain the "headless" version of the environment. You will not be able to watch the agent without enabling a virtual screen, but you will be able to train the agent. (To watch the agent, you should follow the instructions to enable a virtual screen, and then download the environment for the Linux operating system above.)
-
-## Getting Started
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
-The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
-•	0 - move forward.
-•	1 - move backward.
-•	2 - turn left.
-•	3 - turn right.
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
-
-Spend a couple of minutes to move around and collect some yellow bananas. Once you feel like you understand the agent's task, feel free to move on to the next part of the lesson!
 
 ## Project Starter Code
 The original Udacity repo for this project can be found [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation).
