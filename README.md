@@ -4,12 +4,14 @@
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
 ## Introduction
+
 For this project, an agent will be trained to navigate and collect bananas in a large, square world.  Shown below:
 ![Trained Agent][image1]
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
 ## Enviornment
+
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
 - `W` - move forward.
 - `S` - move backward.
@@ -18,25 +20,25 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ## Getting Started
-#### Descriptions
+### Descriptions
 - `README.md` describe the environment, along with how to install the requirements.
 
-#### Code
+### Code
 - `Navigation.ipynb` defines and train a DQN agent
 - `model.py` defines the DQN network architecture
 
-#### Report
+### Report
 - `REPORT.md` describe the learning algorithm and the details of the implementation, along with ideas for future work.
 
-#### The Trained Agent
+### The Trained Agent
 - `checkpoints` folder contains the weights of the all the DQN implementation (see `REPORT.md` for details)
 
 ### Installation
 - `python` folder contains the installation dependencies
 
-Follow the instructions below to explore the environment on your own machine! You will also learn how to use the Python API to control your agent.
+  Follow the instructions below to explore the environment on your own machine! You will also learn how to use the Python API to control your agent.
 
-The Step by Step installation example shown below:
+  The Step by Step installation example shown below:
 
 1. Clone the DRLND Repository
 
